@@ -3,6 +3,7 @@ import { DiMysql, DiMongodb, DiPython } from "react-icons/di"
 import { TbBrandReactNative, TbBrandGolang } from "react-icons/tb"
 import { FaGitAlt } from "react-icons/fa6"
 import { FaNodeJs } from "react-icons/fa"
+import { IoLogoElectron } from "react-icons/io5"
 import {
 	SiTypescript,
 	SiJavascript,
@@ -111,13 +112,13 @@ export default function Skills() {
 							</div>
 							<div>
 								<button className="bg-black text-white hover:bg-white hover:border-black border-2 hover:text-black rounded-lg p-2.5 md:p-4  w-[97.5px] md:w-[150px] flex justify-evenly">
-									<SiNextdotjs className="text-[1.125rem] md:text-[1.5rem]" />
+									<IoLogoElectron className="text-[#3F9586] text-[1.125rem] md:text-[1.5rem]" />
 									<a
 										className="flex flex-row antialiased text-[0.65rem] md:text-[1rem]"
-										href="https://nextjs.org/"
+										href="https://www.electronjs.org/"
 										rel="noopener noreferrer"
 										target="_blank">
-										Next
+										Electron
 									</a>
 								</button>
 							</div>
@@ -142,7 +143,7 @@ export default function Skills() {
 										href="https://reactnative.dev/"
 										rel="noopener noreferrer"
 										target="_blank">
-										Re-Native
+										R.Native
 									</a>
 								</button>
 							</div>

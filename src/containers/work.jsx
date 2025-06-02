@@ -14,6 +14,40 @@ export default function Work() {
 					</h1>
 					<p className="mt-5 text-sm antialiased">Some of my recent projects</p>
 					<Scrollable className="grid grid-row-1 grid-flow-col gap-8 mt-10 md:mx-10 py-4">
+						<div className="overflow-auto border-[3px] border-yellow-400 w-[400px] h-[200px] md:w-[600px] md:h-[300px] mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
+							<div className="work-card-container">
+								<img
+									src="interviewbee.webp"
+									alt="InterviewBee"
+									className="work-card-image rounded-md object-cover object-center filter "
+								/>
+								<div className="work-card-overlay">
+									<div className="work-card-text overflow-y-auto">
+										<p className="text-xs md:text-lg font-semibold mb-2 text-left">
+											InterviewBee
+										</p>
+										<p className="text-[10px] md:text-xs my-2 text-left">
+											I developed a desktop application for both macOS and
+											Windows that provides real-time interview support. The app
+											includes features like live transcription, AI-generated
+											responses based on the transcriptions, and screen
+											analysis. Additionally, the app is completely undetectable
+											by screen capture mechanisms.
+										</p>
+										<p className="mt-6">
+											<a
+												href="https://interviewbee.ai/"
+												rel="noopener noreferrer"
+												target="_blank"
+												className="text-[10px] md:text-xs mt-2 text-white rounded hover:text-black transition duration-300">
+												Learn More
+											</a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
 						<div className="overflow-auto border-[3px] border-green-400 w-[400px] h-[200px] md:w-[600px] md:h-[300px] mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
 							<div className="work-card-container">
 								<img
@@ -36,6 +70,7 @@ export default function Work() {
 										<p className="mt-6">
 											<a
 												href="https://www.wagease.com/"
+												rel="noopener noreferrer"
 												target="_blank"
 												className="text-[10px] md:text-xs mt-2 text-white rounded hover:text-black transition duration-300">
 												Learn More
@@ -66,6 +101,7 @@ export default function Work() {
 										</p>
 										<p className="mt-6">
 											<a
+												rel="noopener noreferrer"
 												href="https://www.tenacitywriting.com/"
 												target="_blank"
 												className="text-[10px] md:text-xs mt-2 text-white rounded hover:text-black transition duration-300">
@@ -98,41 +134,8 @@ export default function Work() {
 										</p>
 										<p className="mt-6">
 											<a
+												rel="noopener noreferrer"
 												href="https://www.audiencelyhq.com/"
-												target="_blank"
-												className="text-[10px] md:text-xs mt-2 text-white rounded hover:text-black transition duration-300">
-												Learn More
-											</a>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div className="overflow-auto border-[3px] border-red-200 w-[400px] h-[200px] md:w-[600px] md:h-[300px] mx-auto rounded-md space-y-1 bg-white shadow-md flex flex-wrap content-evenly p-3">
-							<div className="work-card-container">
-								<img
-									src="feathers-react-starter.webp"
-									alt="Feathers-React Starter"
-									className="work-card-image rounded object-cover object-center"
-								/>
-								<div className="work-card-overlay">
-									<div className="work-card-text overflow-y-auto">
-										<p className="text-xs md:text-lg font-semibold mb-2 text-left">
-											Feathers-React Starter
-										</p>
-										<p className="text-[10px] md:text-xs my-2 text-left">
-											I created an Application Starter Kit that incorporates
-											custom integrations such as payment processing and email
-											services. This project involved the development of a
-											foundational framework (front-end & back-end) for
-											applications, streamlining the inclusion of essential
-											functionalities to simplify the development process for
-											future projects.
-										</p>
-										<p className="mt-6">
-											<a
-												href="https://github.com/monarchmaisuriya/Feathers-React-Starter"
 												target="_blank"
 												className="text-[10px] md:text-xs mt-2 text-white rounded hover:text-black transition duration-300">
 												Learn More
@@ -147,6 +150,7 @@ export default function Work() {
 
 				<div className="flex justify-center mt-5">
 					<a
+						rel="noopener noreferrer"
 						className="shadow-lg relative w-auto py-2 px-4 text-xs md:text-sm font-semibold antialiased rounded-md text-white hover:text-gray-400 transition duration-300"
 						href="https://github.com/monarchmaisuriya?tab=repositories"
 						target="_blank">
